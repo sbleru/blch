@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && tsc && cp -r pages build/",
+    "mkmd": "rm -rf build/pages && cp -r pages build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
