@@ -1,0 +1,34 @@
+{
+  "name": "blch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && tsc && cp -r pages build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "blch": "./build/index.js"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "sbleru",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.41.1",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^4.1.0",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.131.0",
+    "touch": "^3.1.0",
+    "typescript": "^3.7.5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "outDir": "build",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015",
+    "lib": ["es2019"],
+    "incremental": true, //差分ビルドを有効にしてコンパイルを高速化
+    "removeComments": false, //コメントを残す
+    "downlevelIteration": true, //コンパイルターゲットがES5のとき、for-of構文を使う
+    "moduleResolution": "node", //TypeScriptコンパイラが行うモジュールの検索をNodeJS互換にする
+    "forceConsistentCasingInFileNames": true,
+    // 以下移行のため一旦優しい設定
+    "noImplicitAny": false, //allow implicitly has an 'any' type
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "baseUrl": "./",
+    "paths": {"*": ["src/types/*"]}
+  },
+  "compileOnSave": true,
+  "include": [
+    "."
+  ],
+  "allowJs": "true"
+}
