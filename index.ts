@@ -3,6 +3,19 @@
 import * as files from './lib/files';
 import * as program from 'commander';
 import * as fs from 'fs';
+import * as chalk from 'chalk';
+import * as marked from 'marked';
+import * as TerminalRenderer from 'marked-terminal';
+ 
+marked.setOptions({
+  // Define custom renderer
+  // ref: https://www.npmjs.com/package/marked-terminal
+  renderer: new TerminalRenderer({
+    firstHeading: chalk.bold.white.underline,
+    paragraph: chalk.reset.bold,
+    codespan: chalk.cyan,
+  })
+});
 
 // バージョン情報
 program
@@ -52,8 +65,8 @@ program
   .action((target, options) => {
     // tldrコマンドみたいに綺麗に表示させたい
     const path = files.getFilePath(null, target)
-    const src = fs.createReadStream(path, 'utf8')
-    src.pipe(process.stdout)
+    const text = fs.readFileSync(path, {encoding: 'utf8'});
+    console.log('\n' + marked(text))
   }).on('--help', function() {
     console.log('  Examples:')
     console.log()
