@@ -4,12 +4,12 @@ import * as path from 'path';
 /**
  * dirname is gotei13|other|visored|other
  */
-export const getFileNames = (searchDir = null, targetDirName = 'pages') => {
+export const getFileNames = (searchDir = null, targetDirName = 'pages'): string[] => {
 
   // if searchDir = null, root directory 'pages'
   const baseDir = searchDir || 'pages'
   const dir = path.join(__dirname + '/../', baseDir)
-  const names = []
+  const names: string[] = []
   fs.readdirSync(dir).forEach((name) => {
     const fullName = path.join(dir, name)
     const stats = fs.statSync(fullName)

@@ -24,17 +24,14 @@ program
 program
   .command('human')
   .alias('hu')
-  .description('output human name')
-  .option("-a, --all", "list all")
-  .option("-g, --gotei13", "list gotei 13")
-  .option("-e, --espada", "list espada")
-  .option("-vi, --visored", "list visored")
-  .option("-o, --other", "list other")
+  .description('Output human names')
+  .option("-a, --all", "List all")
+  .option("-g, --gotei13", "List gotei 13")
+  .option("-e, --espada", "List espada")
+  .option("-vi, --visored", "List visored")
+  .option("-o, --other", "List other")
   .action((cmd, options) => {
-    let names
-    if (cmd.all) {
-      names = files.getFileNames()
-    }
+    let names: string[] = []
     if (cmd.gotei13) {
       names = files.getFileNames(null, 'gotei13')
     }
@@ -47,31 +44,34 @@ program
     if (cmd.other) {
       names = files.getFileNames(null, 'other')
     }
+    if (cmd.all || names.length === 0) {
+      names = files.getFileNames()
+    }
+    // output names
     console.log(names.join('\n'))
   })
   .on('--help', function() {
-    console.log('  Examples:')
+    console.log('\n  Examples:')
     console.log()
-    console.log('    $ deploy exec sequential')
-    console.log('    $ deploy exec async')
+    console.log('    $ blch human --gotei13')
+    console.log('    $ blch hu -g')
     console.log()
   })
 
 program
   .command('tldr <target>')
   .alias('tl')
-  .description('output tldr')
-  .option("-t, -list_target <target>", "Which target to output")
+  .description('Output character tldr')
+  // .option("-en, --english", "Translate to English") // WANT
   .action((target, options) => {
-    // tldrコマンドみたいに綺麗に表示させたい
     const path = files.getFilePath(null, target)
     const text = fs.readFileSync(path, {encoding: 'utf8'});
+    // output tldr
     console.log('\n' + marked(text))
   }).on('--help', function() {
-    console.log('  Examples:')
+    console.log('\n  Examples:')
     console.log()
-    console.log('    $ deploy exec sequential')
-    console.log('    $ deploy exec async')
+    console.log('    $ blch tldr 黒崎一護')
     console.log()
   })
 
