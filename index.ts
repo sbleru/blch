@@ -7,7 +7,7 @@ import { outputTldr, findHumansByGroupCode } from "./lib/output";
 
 // バージョン情報
 program
-  .version('0.0.1', '-v, --version')
+  .version('0.0.1', '-V, --version')
 
 program
   .command('human')
@@ -16,7 +16,7 @@ program
   .option("-a, --all", "List all")
   .option("-g, --gotei13", "List gotei 13")
   .option("-e, --espada", "List espada")
-  .option("-vi, --visored", "List visored")
+  .option("-v, --visored", "List visored")
   .option("-o, --other", "List other")
   .action( async (cmd, options) => {
 
