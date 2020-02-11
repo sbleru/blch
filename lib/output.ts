@@ -19,6 +19,7 @@ export const outputTldr = (human: Human) => {
 
   console.log()
   console.log(chalk.bold(humanName))
+  human.description ? console.log('\n' + chalk.reset(human.description)) : ''
   console.log(chalk.green('\n- 解号'))
   console.log(chalk.cyanBright(`    ${kaigouName}`))
   kaigou2Name ? console.log(chalk.cyanBright(`    ${kaigou2Name}`)) : ''

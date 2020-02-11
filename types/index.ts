@@ -1,6 +1,7 @@
 export interface Human {
   name: string
   nameKana: string
+  description: string
   kaigou: string
   kaigouKana: string
   zanpakuto: string
