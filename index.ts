@@ -3,7 +3,7 @@
 import * as files from './lib/files';
 import * as program from 'commander';
 import { Human, GroupCode } from "./types";
-import { outputTldr, findHumansByGroupCode } from "./lib/output";
+import { outputTldr, findHumansByGroupCode, echoShikai, echoBankai } from "./lib/output";
 
 // バージョン情報
 program
@@ -69,6 +69,34 @@ program
     console.log('\n  Examples:')
     console.log()
     console.log('    $ blch tldr 黒崎一護')
+    console.log()
+  })
+
+program
+  .command('echo <target>')
+  .alias('e')
+  .option("-s, --shikai", "echo shikai")
+  .option("-b, --bankai", "echo bankai")
+  .description('echo shikai, bankai')
+  .action( async (target, options) => {
+
+    const dataList: Human[] = await files.getHumanDataList()
+    const humans = dataList.filter(el => el.name == target)
+    if (humans.length === 0) {
+      console.log('No matching')
+      return
+    }
+    if (options.shikai) {
+      echoShikai(humans[0])
+    } else if (options.bankai) {
+      echoBankai(humans[0])
+    }
+
+  }).on('--help', function() {
+    console.log('\n  Examples:')
+    console.log()
+    console.log('    $ blch echo --shikai 朽木白哉')
+    console.log('    $ blch echo --bankai 黒崎一護')
     console.log()
   })
 

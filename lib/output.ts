@@ -65,3 +65,41 @@ export const findHumansByGroupCode = (dataList: Human[], groupCode: GroupCode, o
   })
   return humans
 }
+
+/**
+ * echo shikai
+ * @param human 
+ */
+export const echoShikai = (human: Human) => {
+  if (!human.kaigou && !human.zanpakuto) {
+    // No matching
+    return
+  }
+  if (human.kaigou) {
+    console.log()
+    console.log(chalk.bold(human.kaigou))
+    console.log()
+  }
+  setTimeout(() => {
+    console.log(chalk.cyanBright.bold(human.zanpakuto))
+    console.log()
+  }, 1000)
+}
+
+/**
+ * echo bankai
+ * @param human 
+ */
+export const echoBankai = (human: Human) => {
+  if (!human.bankai) {
+    // No matching
+    return
+  }
+  console.log()
+  console.log(chalk.bold('卍解'))
+  console.log()
+  setTimeout(() => {
+    console.log(chalk.redBright.bold(human.bankai))
+    console.log()
+  }, 1000)
+}
