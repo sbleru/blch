@@ -10,11 +10,11 @@ export const outputTldr = (human: Human) => {
   const weaponGenericName = getWeaponGenericName(human.groupCode)
 
   const humanName = getNameWithKana(human.name, human.nameKana)
-  const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || '不明'
+  const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || 'なし|不明'
   const kaigou2Name = getNameWithKana(human.kaigou2, human.kaigou2Kana)
-  const zanpakutoName = getNameWithKana(human.zanpakuto, human.zanpakutoKana) || '不明'
+  const zanpakutoName = getNameWithKana(human.zanpakuto, human.zanpakutoKana) || 'なし|不明'
   const zanpakuto2Name = getNameWithKana(human.zanpakuto2, human.zanpakuto2Kana)
-  const bankaiName = getNameWithKana(human.bankai, human.bankaiKana) || '不明'
+  const bankaiName = getNameWithKana(human.bankai, human.bankaiKana) || 'なし|不明'
   const bankai2Name = getNameWithKana(human.bankai2, human.bankai2Kana)
 
   console.log()
@@ -64,4 +64,42 @@ export const findHumansByGroupCode = (dataList: Human[], groupCode: GroupCode, o
     return el.groupCode === groupCode && el.attribute1 === targetNumber
   })
   return humans
+}
+
+/**
+ * echo shikai
+ * @param human 
+ */
+export const echoShikai = (human: Human) => {
+  if (!human.kaigou && !human.zanpakuto) {
+    // No matching
+    return
+  }
+  if (human.kaigou) {
+    console.log()
+    console.log(chalk.bold(human.kaigou))
+    console.log()
+  }
+  setTimeout(() => {
+    console.log(chalk.cyanBright.bold(human.zanpakuto))
+    console.log()
+  }, 1000)
+}
+
+/**
+ * echo bankai
+ * @param human 
+ */
+export const echoBankai = (human: Human) => {
+  if (!human.bankai) {
+    // No matching
+    return
+  }
+  console.log()
+  console.log(chalk.bold('卍解'))
+  console.log()
+  setTimeout(() => {
+    console.log(chalk.redBright.bold(human.bankai))
+    console.log()
+  }, 1000)
 }
