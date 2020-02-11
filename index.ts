@@ -2,20 +2,8 @@
 
 import * as files from './lib/files';
 import * as program from 'commander';
-import * as fs from 'fs';
-import * as chalk from 'chalk';
-import * as marked from 'marked';
-import * as TerminalRenderer from 'marked-terminal';
- 
-marked.setOptions({
-  // Define custom renderer
-  // ref: https://www.npmjs.com/package/marked-terminal
-  renderer: new TerminalRenderer({
-    firstHeading: chalk.bold.white.underline,
-    paragraph: chalk.reset.bold,
-    codespan: chalk.cyan,
-  })
-});
+import { Human, GroupCode } from "./types";
+import { outputTldr, findHumansByGroupCode } from "./lib/output";
 
 // バージョン情報
 program
@@ -30,25 +18,30 @@ program
   .option("-e, --espada", "List espada")
   .option("-vi, --visored", "List visored")
   .option("-o, --other", "List other")
-  .action((cmd, options) => {
-    let names: string[] = []
+  .action( async (cmd, options) => {
+
+    const dataList: Human[] = await files.getHumanDataList()
+
+    let targetCode: GroupCode = 'all'
     if (cmd.gotei13) {
-      names = files.getFileNames(null, 'gotei13')
+      targetCode = 'gotei13'
     }
     if (cmd.espada) {
-      names = files.getFileNames(null, 'espada')
+      targetCode = 'espada'
     }
     if (cmd.visored) {
-      names = files.getFileNames(null, 'visored')
+      targetCode = 'visored'
     }
     if (cmd.other) {
-      names = files.getFileNames(null, 'other')
+      targetCode = 'other'
     }
-    if (cmd.all || names.length === 0) {
-      names = files.getFileNames()
+    const humans = findHumansByGroupCode(dataList, targetCode, options)
+    if (humans.length === 0) {
+      console.log('No matching')
+      return
     }
-    // output names
-    console.log(names.join('\n'))
+    humans.forEach(human => console.log(human.name))
+
   })
   .on('--help', function() {
     console.log('\n  Examples:')
@@ -62,12 +55,16 @@ program
   .command('tldr <target>')
   .alias('tl')
   .description('Output character tldr')
-  // .option("-en, --english", "Translate to English") // WANT
-  .action((target, options) => {
-    const path = files.getFilePath(null, target)
-    const text = fs.readFileSync(path, {encoding: 'utf8'});
-    // output tldr
-    console.log('\n' + marked(text))
+  .action( async (target, options) => {
+
+    const dataList: Human[] = await files.getHumanDataList()
+    const humans = dataList.filter(el => el.name == target)
+    if (humans.length === 0) {
+      console.log('No matching')
+      return
+    }
+    outputTldr(humans[0])
+
   }).on('--help', function() {
     console.log('\n  Examples:')
     console.log()
