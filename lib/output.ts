@@ -10,11 +10,11 @@ export const outputTldr = (human: Human) => {
   const weaponGenericName = getWeaponGenericName(human.groupCode)
 
   const humanName = getNameWithKana(human.name, human.nameKana)
-  const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || '不明'
+  const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || 'なし|不明'
   const kaigou2Name = getNameWithKana(human.kaigou2, human.kaigou2Kana)
-  const zanpakutoName = getNameWithKana(human.zanpakuto, human.zanpakutoKana) || '不明'
+  const zanpakutoName = getNameWithKana(human.zanpakuto, human.zanpakutoKana) || 'なし|不明'
   const zanpakuto2Name = getNameWithKana(human.zanpakuto2, human.zanpakuto2Kana)
-  const bankaiName = getNameWithKana(human.bankai, human.bankaiKana) || '不明'
+  const bankaiName = getNameWithKana(human.bankai, human.bankaiKana) || 'なし|不明'
   const bankai2Name = getNameWithKana(human.bankai2, human.bankai2Kana)
 
   console.log()
