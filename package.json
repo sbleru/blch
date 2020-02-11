@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf build && tsc && cp -r pages build/ && cp -r data build/",
+    "build": "rm -rf build && tsc && cp -r data build/",
     "mkmd": "rm -rf build/pages && cp -r pages build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
