@@ -7,7 +7,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2015",
-    "lib": ["es2019"],
+    "lib": ["es2019", "DOM"],
     "incremental": true, //差分ビルドを有効にしてコンパイルを高速化
     "removeComments": false, //コメントを残す
     "downlevelIteration": true, //コンパイルターゲットがES5のとき、for-of構文を使う
