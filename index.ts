@@ -17,7 +17,7 @@ program
   .option("-g, --gotei13", "List gotei 13")
   .option("-e, --espada", "List espada")
   .option("-v, --visored", "List visored")
-  .option("-o, --other", "List other")
+  .option("-o, --karakuracho", "List karakuracho")
   .action( async (cmd, options) => {
 
     const dataList: Human[] = await files.getHumanDataList()
@@ -32,8 +32,11 @@ program
     if (cmd.visored) {
       targetCode = 'visored'
     }
-    if (cmd.other) {
-      targetCode = 'other'
+    if (cmd.karakuracho) {
+      targetCode = 'karakuracho'
+    }
+    if (cmd.fullbringer) {
+      targetCode = 'fullbringer'
     }
     const humans = findHumansByGroupCode(dataList, targetCode, options)
     if (humans.length === 0) {

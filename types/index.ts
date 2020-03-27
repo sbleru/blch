@@ -18,4 +18,4 @@ export interface Human {
   bankai2Kana: string
 }
 
-export type GroupCode = 'gotei13'|'espada'|'visored'|'other'|'all'
+export type GroupCode = 'gotei13'|'espada'|'visored'|'all'|'karakuracho'|'fullbringer'
