@@ -18,6 +18,7 @@ program
   .option("-e, --espada", "List espada")
   .option("-v, --visored", "List visored")
   .option("-o, --karakuracho", "List karakuracho")
+  .option("-f, --fullbringer", "List fullbringer")
   .action( async (cmd, options) => {
 
     const dataList: Human[] = await files.getHumanDataList()
