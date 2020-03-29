@@ -17,7 +17,7 @@ program
   .option("-g, --gotei13", "List gotei 13")
   .option("-e, --espada", "List espada")
   .option("-v, --visored", "List visored")
-  .option("-o, --karakuracho", "List karakuracho")
+  .option("-k, --karakuracho", "List karakuracho")
   .option("-f, --fullbringer", "List fullbringer")
   .action( async (cmd, options) => {
 

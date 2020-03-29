@@ -1,5 +1,5 @@
 import * as chalk from 'chalk';
-import { Human, GroupCode } from "../types";
+import { Human, GroupCode, TldrType } from "../types";
 
 /**
  * make look it better and output tldr
@@ -7,7 +7,9 @@ import { Human, GroupCode } from "../types";
  */
 export const outputTldr = (human: Human) => {
 
-  const weaponGenericName = getWeaponGenericName(human.groupCode)
+  const firstItemGenericName = getFirstItemGenericName(human.tldrType)
+  const secondItemGenericName = getSecondItemGenericName(human.tldrType)
+  const thirdItemGenericName = getThirdItemGenericName(human.tldrType)
 
   const humanName = getNameWithKana(human.name, human.nameKana)
   const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || 'なし|不明'
@@ -20,14 +22,16 @@ export const outputTldr = (human: Human) => {
   console.log()
   console.log(chalk.bold(humanName))
   human.description ? console.log('\n' + chalk.reset(human.description)) : ''
-  console.log(chalk.green('\n- 解号'))
+  console.log(chalk.green(`\n- ${firstItemGenericName}`))
   console.log(chalk.cyanBright(`    ${kaigouName}`))
   kaigou2Name ? console.log(chalk.cyanBright(`    ${kaigou2Name}`)) : ''
-  console.log(chalk.green(`\n- ${weaponGenericName}`))
-  console.log(chalk.cyanBright(`    ${zanpakutoName}`))
-  zanpakuto2Name ? console.log(chalk.cyanBright(`    ${zanpakuto2Name}`)) : ''
-  if (human.groupCode !== 'espada') {
-    console.log(chalk.green('\n- 卍解'))
+  if (secondItemGenericName) {
+    console.log(chalk.green(`\n- ${secondItemGenericName}`))
+    console.log(chalk.cyanBright(`    ${zanpakutoName}`))
+    zanpakuto2Name ? console.log(chalk.cyanBright(`    ${zanpakuto2Name}`)) : ''
+  }
+  if (thirdItemGenericName) {
+    console.log(chalk.green(`\n- ${thirdItemGenericName}`))
     console.log(chalk.cyanBright(`    ${bankaiName}`))
     bankai2Name ? console.log(chalk.cyanBright(`    ${bankai2Name}`)) : ''
   }
@@ -41,10 +45,34 @@ const getNameWithKana = (name: string, nameKana: string) => {
   return `${name} ${nameKana ? `（${nameKana}）` : ''}`
 }
 
-const getWeaponGenericName = (groupCode: GroupCode) => {
-  return groupCode === 'espada'
-    ? '帰刃'
-    : '斬魄刀'
+const getFirstItemGenericName = (tldrType: TldrType) => {
+  if (tldrType === 'fullbringer') {
+    return '完現術'
+  }
+  if (tldrType === 'quincy') {
+    return '能力'
+  }
+  return '解号'
+}
+
+const getSecondItemGenericName = (tldrType: TldrType) => {
+  if (tldrType === 'fullbringer') {
+    return '技'
+  }
+  if (tldrType === 'hollow') {
+    return '帰刃'
+  }
+  if (tldrType === 'quincy') {
+    return null
+  }
+  return '斬魄刀'
+}
+
+const getThirdItemGenericName = (tldrType: TldrType) => {
+  if (tldrType === 'shinigami') {
+    return '卍解'
+  }
+  return null
 }
 
 /**

@@ -9,6 +9,7 @@ export interface Human {
   bankai: string
   bankaiKana: string
   groupCode: GroupCode
+  tldrType: TldrType
   attribute1: string
   kaigou2: string
   kaigou2Kana: string
@@ -19,3 +20,5 @@ export interface Human {
 }
 
 export type GroupCode = 'gotei13'|'espada'|'visored'|'all'|'karakuracho'|'fullbringer'
+
+export type TldrType = 'shinigami'|'hollow'|'fullbringer'|'quincy'
