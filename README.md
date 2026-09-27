@@ -4,9 +4,8 @@
 
 Node.js 22以上で動作します。
 
-こちらのスプレッドシートの情報を扱っています。
-人物追加・編集・修正はこちらから自由にしていただいて構いません。
-https://docs.google.com/spreadsheets/d/1e7Ms9sX2m1xu_4r20AgyIZHFgByRQp1s93ZE2PZlEaM/edit#gid=0
+こちらのスプレッドシートの情報を扱っています（閲覧専用）。
+[blch - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1e7Ms9sX2m1xu_4r20AgyIZHFgByRQp1s93ZE2PZlEaM/edit?gid=0#gid=0)
 
 #### 人物リスト表示 - human
 
@@ -62,4 +61,4 @@ blch echo --bankai 朽木白哉
 
 ### 参考文献
 
-https://bleachyashiki.com/%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81-%E6%96%AC%E9%AD%84%E5%88%80/
+[ブリーチの斬魄刀一覧 | ブリーチ屋敷](https://bleachyashiki.com/%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81-%E6%96%AC%E9%AD%84%E5%88%80/)
