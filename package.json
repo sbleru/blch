@@ -15,7 +15,7 @@
     "pack:check": "npm pack --dry-run"
   },
   "bin": {
-    "blch": "./build/index.js"
+    "blch": "build/index.js"
   },
   "repository": {
     "type": "git",
