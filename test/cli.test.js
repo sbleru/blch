@@ -13,9 +13,9 @@ const run = (...args) => execFileAsync(process.execPath, [cli, ...args], {
   env: { ...process.env, FORCE_COLOR: '0', NO_COLOR: '1' },
 })
 
-test('prints the existing CLI version', async () => {
+test('prints the package version', async () => {
   const { stdout, stderr } = await run('--version')
-  assert.equal(stdout, '0.0.1\n')
+  assert.equal(stdout, '1.1.2\n')
   assert.equal(stderr, '')
 })
 

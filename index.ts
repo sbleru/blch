@@ -2,12 +2,16 @@
 
 import * as files from './lib/files.js';
 import { program } from 'commander';
+import { createRequire } from 'node:module';
 import { Human, GroupCode } from "./types/index.js";
 import { outputTldr, findHumansByGroupCode, echoShikai, echoBankai } from "./lib/output.js";
 
+const require = createRequire(import.meta.url)
+const { version } = require('../package.json') as { version: string }
+
 // バージョン情報
 program
-  .version('0.0.1', '-V, --version')
+  .version(version, '-V, --version')
 
 program
   .command('human')
