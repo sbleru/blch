@@ -4,10 +4,13 @@ import { promisify } from 'node:util'
 import { test } from 'node:test'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { createRequire } from 'node:module'
 
 const execFileAsync = promisify(execFile)
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 const cli = path.join(dirname, '..', 'build', 'index.js')
+const require = createRequire(import.meta.url)
+const { version } = require('../package.json')
 
 const run = (...args) => execFileAsync(process.execPath, [cli, ...args], {
   env: { ...process.env, FORCE_COLOR: '0', NO_COLOR: '1' },
@@ -15,7 +18,7 @@ const run = (...args) => execFileAsync(process.execPath, [cli, ...args], {
 
 test('prints the package version', async () => {
   const { stdout, stderr } = await run('--version')
-  assert.equal(stdout, '1.1.2\n')
+  assert.equal(stdout, `${version}\n`)
   assert.equal(stderr, '')
 })
 
