@@ -20,8 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
-      - run: npm install --global npm@12.1.0
-      - run: npm ci
+      - run: npx --yes npm@12.1.0 ci
       - run: npm run typecheck
       - run: npm test
       - run: npm run pack:check
