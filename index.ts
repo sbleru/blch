@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import * as files from './lib/files';
-import * as program from 'commander';
-import { Human, GroupCode } from "./types";
-import { outputTldr, findHumansByGroupCode, echoShikai, echoBankai } from "./lib/output";
+import * as files from './lib/files.js';
+import { program } from 'commander';
+import { Human, GroupCode } from "./types/index.js";
+import { outputTldr, findHumansByGroupCode, echoShikai, echoBankai } from "./lib/output.js";
 
 // バージョン情報
 program
@@ -19,27 +19,27 @@ program
   .option("-v, --visored", "List visored")
   .option("-k, --karakuracho", "List karakuracho")
   .option("-f, --fullbringer", "List fullbringer")
-  .action( async (cmd, options) => {
+  .action( async (options) => {
 
     const dataList: Human[] = await files.getHumanDataList()
 
     let targetCode: GroupCode = 'all'
-    if (cmd.gotei13) {
+    if (options.gotei13) {
       targetCode = 'gotei13'
     }
-    if (cmd.espada) {
+    if (options.espada) {
       targetCode = 'espada'
     }
-    if (cmd.visored) {
+    if (options.visored) {
       targetCode = 'visored'
     }
-    if (cmd.karakuracho) {
+    if (options.karakuracho) {
       targetCode = 'karakuracho'
     }
-    if (cmd.fullbringer) {
+    if (options.fullbringer) {
       targetCode = 'fullbringer'
     }
-    const humans = findHumansByGroupCode(dataList, targetCode, options)
+    const humans = findHumansByGroupCode(dataList, targetCode)
     if (humans.length === 0) {
       console.log('No matching')
       return

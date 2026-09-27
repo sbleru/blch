@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "node16",
     "noImplicitReturns": true,
     "noUnusedLocals": false,
     "outDir": "build",
     "sourceMap": true,
     "strict": true,
-    "target": "es2015",
-    "lib": ["es2019", "DOM"],
-    "incremental": true, //差分ビルドを有効にしてコンパイルを高速化
+    "target": "es2022",
+    "lib": ["es2022"],
     "removeComments": false, //コメントを残す
-    "downlevelIteration": true, //コンパイルターゲットがES5のとき、for-of構文を使う
-    "moduleResolution": "node", //TypeScriptコンパイラが行うモジュールの検索をNodeJS互換にする
+    "moduleResolution": "node16",
+    "types": ["node"],
     "forceConsistentCasingInFileNames": true,
     // 以下移行のため一旦優しい設定
     "noImplicitAny": false, //allow implicitly has an 'any' type
@@ -19,13 +18,13 @@
     "strictFunctionTypes": false,
     "strictBindCallApply": false,
     "strictPropertyInitialization": false,
-    "noImplicitThis": false,
-    "baseUrl": "./",
-    "paths": {"*": ["src/types/*"]}
+    "noImplicitThis": false
   },
   "compileOnSave": true,
   "include": [
-    "."
+    "index.ts",
+    "lib/**/*.ts",
+    "types/**/*.ts"
   ],
-  "allowJs": "true"
+  "exclude": ["build", "node_modules"]
 }
