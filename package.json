@@ -1,6 +1,6 @@
 {
   "name": "blch",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "BLEACH tldr utility",
   "type": "module",
   "main": "build/index.js",
