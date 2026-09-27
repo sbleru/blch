@@ -1,5 +1,5 @@
-import * as chalk from 'chalk';
-import { Human, GroupCode, TldrType } from "../types";
+import chalk from 'chalk';
+import { Human, GroupCode, TldrType } from "../types/index.js";
 
 /**
  * make look it better and output tldr

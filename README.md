@@ -2,6 +2,8 @@
 
 「BLEACH」のキャラクター概要表示Utility。
 
+Node.js 22以上で動作します。
+
 こちらのスプレッドシートの情報を扱っています。
 人物追加・編集・修正はこちらから自由にしていただいて構いません。
 https://docs.google.com/spreadsheets/d/1e7Ms9sX2m1xu_4r20AgyIZHFgByRQp1s93ZE2PZlEaM/edit#gid=0
@@ -32,6 +34,15 @@ blch tldr 黒崎一護
 shellコマンドの説明と使用方法を数行で紹介してくれます。  
 `brew install tldr`で。  
 https://github.com/tldr-pages/tldr
+
+### 開発
+
+```console
+npm ci
+npm run typecheck
+npm test
+npm run pack:check
+```
 
 #### 始解・卍解 - echo
 

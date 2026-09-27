@@ -2,11 +2,17 @@
   "name": "blch",
   "version": "1.1.1",
   "description": "BLEACH tldr utility",
-  "main": "index.js",
+  "type": "module",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "rm -rf build && tsc && cp -r data build/",
     "mkmd": "rm -rf build/pages && cp -r pages build/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test test/*.test.js",
+    "pack:check": "npm pack --dry-run"
   },
   "bin": {
     "blch": "./build/index.js"
@@ -21,11 +27,16 @@
   ],
   "author": "sbleru",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
-    "@types/node": "^13.7.4",
-    "chalk": "^3.0.0",
-    "commander": "^4.1.0",
-    "csvtojson": "^2.0.10",
-    "typescript": "^3.7.5"
+    "chalk": "^4.1.2",
+    "commander": "^15.0.0",
+    "csvtojson": "^2.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^7.0.2"
   }
 }
