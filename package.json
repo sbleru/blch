@@ -12,7 +12,10 @@
     "mkmd": "rm -rf build/pages && cp -r pages build/",
     "typecheck": "tsc --noEmit",
     "test": "npm run build && node --test test/*.test.js",
-    "pack:check": "npm pack --dry-run"
+    "pack:check": "npm pack --dry-run",
+    "security:staged": "PATH=\"$PWD/.tools:$PATH\" gitleaks git --pre-commit --staged --redact .",
+    "security:scan": "npm run security:history",
+    "security:history": "PATH=\"$PWD/.tools:$PATH\" gitleaks git --log-opts=--all --redact ."
   },
   "bin": {
     "blch": "build/index.js"
