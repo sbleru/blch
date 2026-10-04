@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+if [ -x "$repo_root/.tools/gitleaks" ]; then
+    scanner="$repo_root/.tools/gitleaks"
+elif command -v gitleaks >/dev/null 2>&1; then
+    scanner=gitleaks
+else
+    echo 'gitleaks is required. Install it using your package manager; see docs/security.md.' >&2
+    exit 1
+fi
+exec "$scanner" git --pre-commit --staged --redact "$repo_root"

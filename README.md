@@ -43,6 +43,9 @@ npm test
 npm run pack:check
 ```
 
+開発環境の秘密情報チェックと hook のセットアップは
+[セキュリティ運用](docs/security.md) を参照してください。
+
 #### 始解・卍解 - echo
 
 echoコマンドにより、始解または卍解を行います。
