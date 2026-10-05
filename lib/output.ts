@@ -1,39 +1,35 @@
-import chalk from 'chalk';
-import { Human, GroupCode, TldrType } from "../types/index.js";
+import chalk from 'chalk'
+import type { Character, AbilityItem, NamedText } from '../types/characters.js'
+import type { TldrType } from '../types/index.js'
 
-/**
- * make look it better and output tldr
- * @param human 
- */
-export const outputTldr = (human: Human) => {
+const reading = (name: NamedText): string => name.reading.status === 'known' ? name.reading.value : ''
+const entries = (character: Character): AbilityItem[] => character.abilities.flatMap(system => system.items)
 
-  const firstItemGenericName = getFirstItemGenericName(human.tldrType)
-  const secondItemGenericName = getSecondItemGenericName(human.tldrType)
-  const thirdItemGenericName = getThirdItemGenericName(human.tldrType)
-
-  const humanName = getNameWithKana(human.name, human.nameKana)
-  const kaigouName = getNameWithKana(human.kaigou, human.kaigouKana) || 'なし|不明'
-  const kaigou2Name = getNameWithKana(human.kaigou2, human.kaigou2Kana)
-  const zanpakutoName = getNameWithKana(human.zanpakuto, human.zanpakutoKana) || 'なし|不明'
-  const zanpakuto2Name = getNameWithKana(human.zanpakuto2, human.zanpakuto2Kana)
-  const bankaiName = getNameWithKana(human.bankai, human.bankaiKana) || 'なし|不明'
-  const bankai2Name = getNameWithKana(human.bankai2, human.bankai2Kana)
-
-  console.log()
-  console.log(chalk.bold(humanName))
-  human.description ? console.log('\n' + chalk.reset(human.description)) : ''
-  console.log(chalk.green(`\n- ${firstItemGenericName}`))
-  console.log(chalk.cyanBright(`    ${kaigouName}`))
-  kaigou2Name ? console.log(chalk.cyanBright(`    ${kaigou2Name}`)) : ''
-  if (secondItemGenericName) {
-    console.log(chalk.green(`\n- ${secondItemGenericName}`))
-    console.log(chalk.cyanBright(`    ${zanpakutoName}`))
-    zanpakuto2Name ? console.log(chalk.cyanBright(`    ${zanpakuto2Name}`)) : ''
+/** Display every entry, preserving the CSV's empty first-slot placeholder. */
+const sectionNames = (character: Character, section: AbilityItem['displaySection']): string[] => {
+  const items = entries(character).filter(item => item.displaySection === section)
+  const names = items.map(item => getNameWithKana(item.name.text, reading(item.name)))
+  const primarySlot = { first: 'kaigou', second: 'zanpakuto', third: 'bankai' }[section]
+  if (!items.length || (items.every(item => item.legacySlot !== primarySlot) && items.some(item => item.legacySlot === `${primarySlot}2`))) {
+    names.unshift('なし|不明')
   }
-  if (thirdItemGenericName) {
-    console.log(chalk.green(`\n- ${thirdItemGenericName}`))
-    console.log(chalk.cyanBright(`    ${bankaiName}`))
-    bankai2Name ? console.log(chalk.cyanBright(`    ${bankai2Name}`)) : ''
+  return names
+}
+
+export const outputTldr = (character: Character) => {
+  const type = character.legacyView.tldrType
+  const sections: [AbilityItem['displaySection'], string | null][] = [
+    ['first', getFirstItemGenericName(type)],
+    ['second', getSecondItemGenericName(type)],
+    ['third', getThirdItemGenericName(type)],
+  ]
+  console.log()
+  console.log(chalk.bold(getNameWithKana(character.name.text, reading(character.name))))
+  if (character.description) console.log('\n' + chalk.reset(character.description))
+  for (const [section, label] of sections) {
+    if (!label) continue
+    console.log(chalk.green(`\n- ${label}`))
+    for (const name of sectionNames(character, section)) console.log(chalk.cyanBright(`    ${name}`))
   }
   console.log()
 }
@@ -75,60 +71,33 @@ const getThirdItemGenericName = (tldrType: TldrType) => {
   return null
 }
 
-/**
- * filter humans by group code and option
- * @param dataList 
- * @param groupCode 
- * @param options 
- */
-export const findHumansByGroupCode = (dataList: Human[], groupCode: GroupCode, options: string[] = null) => {
-  if (groupCode === 'all') {
-    return dataList
-  }
-  const humans = dataList.filter(el => {
-    if (!options) {
-      return el.groupCode === groupCode
-    }
-    const targetNumber = options[0]
-    return el.groupCode === groupCode && el.attribute1 === targetNumber
-  })
-  return humans
-}
+/** Preserve existing echo behavior: the original first entries are spoken. */
+const echoEntry = (character: Character, slot: string): string =>
+  entries(character).find(item => item.legacySlot === slot)?.name.text || ''
 
-/**
- * echo shikai
- * @param human 
- */
-export const echoShikai = (human: Human) => {
-  if (!human.kaigou && !human.zanpakuto) {
-    // No matching
-    return
-  }
-  if (human.kaigou) {
+export const echoShikai = (character: Character) => {
+  const command = echoEntry(character, 'kaigou')
+  const weapon = echoEntry(character, 'zanpakuto')
+  if (!command && !weapon) return
+  if (command) {
     console.log()
-    console.log(chalk.bold(human.kaigou))
+    console.log(chalk.bold(command))
     console.log()
   }
   setTimeout(() => {
-    console.log(chalk.cyanBright.bold(human.zanpakuto))
+    console.log(chalk.cyanBright.bold(weapon))
     console.log()
   }, 1000)
 }
 
-/**
- * echo bankai
- * @param human 
- */
-export const echoBankai = (human: Human) => {
-  if (!human.bankai) {
-    // No matching
-    return
-  }
+export const echoBankai = (character: Character) => {
+  const bankai = echoEntry(character, 'bankai')
+  if (!bankai) return
   console.log()
   console.log(chalk.bold('卍解'))
   console.log()
   setTimeout(() => {
-    console.log(chalk.redBright.bold(human.bankai))
+    console.log(chalk.redBright.bold(bankai))
     console.log()
   }, 1000)
 }

@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 import * as files from './lib/files.js';
+import { findCharacter, findCharactersByGroup } from './lib/search.js';
 import { program } from 'commander';
 import { createRequire } from 'node:module';
-import { Human, GroupCode } from "./types/index.js";
-import { outputTldr, findHumansByGroupCode, echoShikai, echoBankai } from "./lib/output.js";
+import { GroupCode } from "./types/index.js";
+import { outputTldr, echoShikai, echoBankai } from "./lib/output.js";
 
 const require = createRequire(import.meta.url)
 const { version } = require('../package.json') as { version: string }
@@ -25,7 +26,7 @@ program
   .option("-f, --fullbringer", "List fullbringer")
   .action( async (options) => {
 
-    const dataList: Human[] = await files.getHumanDataList()
+    const dataList = await files.getCharacterDataList()
 
     let targetCode: GroupCode = 'all'
     if (options.gotei13) {
@@ -43,12 +44,12 @@ program
     if (options.fullbringer) {
       targetCode = 'fullbringer'
     }
-    const humans = findHumansByGroupCode(dataList, targetCode)
+    const humans = findCharactersByGroup(dataList, targetCode)
     if (humans.length === 0) {
       console.log('No matching')
       return
     }
-    humans.forEach(human => console.log(human.name))
+    humans.forEach(human => console.log(human.name.text))
 
   })
   .on('--help', function() {
@@ -65,13 +66,13 @@ program
   .description('Output character tldr')
   .action( async (target, options) => {
 
-    const dataList: Human[] = await files.getHumanDataList()
-    const humans = dataList.filter(el => el.name == target)
-    if (humans.length === 0) {
+    const dataList = await files.getCharacterDataList()
+    const human = findCharacter(dataList, target)
+    if (!human) {
       console.log('No matching')
       return
     }
-    outputTldr(humans[0])
+    outputTldr(human)
 
   }).on('--help', function() {
     console.log('\n  Examples:')
@@ -88,16 +89,16 @@ program
   .description('echo shikai, bankai')
   .action( async (target, options) => {
 
-    const dataList: Human[] = await files.getHumanDataList()
-    const humans = dataList.filter(el => el.name == target)
-    if (humans.length === 0) {
+    const dataList = await files.getCharacterDataList()
+    const human = findCharacter(dataList, target)
+    if (!human) {
       console.log('No matching')
       return
     }
     if (options.shikai) {
-      echoShikai(humans[0])
+      echoShikai(human)
     } else if (options.bankai) {
-      echoBankai(humans[0])
+      echoBankai(human)
     }
 
   }).on('--help', function() {
