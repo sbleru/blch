@@ -4,7 +4,10 @@
 
 Node.js 22以上で動作します。
 
-こちらのスプレッドシートの情報を扱っています（閲覧専用）。
+キャラクターデータは repo の `data/characters.json` で管理しています。
+編集方法・構造は [データ管理](docs/data.md) を参照してください。
+
+移行元のスプレッドシート（閲覧専用）：
 [blch - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1e7Ms9sX2m1xu_4r20AgyIZHFgByRQp1s93ZE2PZlEaM/edit?gid=0#gid=0)
 
 #### 人物リスト表示 - human

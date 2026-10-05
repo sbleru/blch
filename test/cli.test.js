@@ -58,3 +58,12 @@ test('prints bankai output in order', async () => {
   const { stdout } = await run('echo', '--bankai', '黒崎一護')
   assert.match(stdout, /卍解[\s\S]*天鎖斬月/)
 })
+
+test('finds the same character by stable ID and reading', async () => {
+  const byName = await run('tldr', '黒崎一護')
+  for (const target of ['kurosaki-ichigo', 'くろさきいちご']) {
+    const result = await run('tldr', target)
+    assert.equal(result.stdout, byName.stdout)
+    assert.equal(result.stderr, '')
+  }
+})

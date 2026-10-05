@@ -36,8 +36,7 @@
   "packageManager": "npm@12.1.0",
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^15.0.0",
-    "csvtojson": "^2.0.14"
+    "commander": "^15.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.20.4",

@@ -1,12 +1,9 @@
-import csvtojson from 'csvtojson'
-import { fileURLToPath } from 'node:url'
-import path from 'node:path'
-import { Human } from "../types/index.js";
+import { readFile } from 'node:fs/promises'
+import type { Character, CharacterDataset } from '../types/characters.js'
+import { assertCharacterDataset } from './validate.js'
 
-const dirname = path.dirname(fileURLToPath(import.meta.url))
-
-export const getHumanDataList = async (): Promise<Human[]> => {
-  const filename = path.join(dirname, '..', 'data', 'human.csv')
-  const dataList: Human[] = await csvtojson().fromFile(filename)
-  return dataList
+export const getCharacterDataList = async (): Promise<Character[]> => {
+  const value: unknown = JSON.parse(await readFile(new URL('../data/characters.json', import.meta.url), 'utf8'))
+  assertCharacterDataset(value)
+  return (value as CharacterDataset).characters
 }
