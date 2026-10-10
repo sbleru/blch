@@ -13072,6 +13072,110 @@
         "attribute": "",
         "tldrType": "quincy"
       }
+    },
+    {
+      "id": "yhwach",
+      "name": {
+        "text": "ユーハバッハ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "見えざる帝国を統べる、滅却師の始祖。配下から陛下と呼ばれる。",
+      "memberships": [
+        {
+          "id": "yhwach-wandenreich",
+          "groupId": "wandenreich",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "known",
+            "value": "皇帝"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "yhwach-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "A",
+              "name": {
+                "text": "全知全能",
+                "reading": {
+                  "status": "unrecorded"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ユーハバッハ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "名前・帝国の指導者・聖文字Aを照合。説明は公式人物紹介の要約。全知全能の名称は公式ハッシュヴァルト紹介とブリーチシティで照合。原作本文の直接確認・巻話ページ特定・能力の読み・技は保留。",
+            "ユーザー指定により星十字騎士団には含めず、見えざる帝国の人物として収録。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "A.ユーハバッハ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "名前・帝国の指導者・聖文字Aを照合。説明は公式人物紹介の要約。全知全能の名称は公式ハッシュヴァルト紹介とブリーチシティで照合。原作本文の直接確認・巻話ページ特定・能力の読み・技は保留。",
+            "ユーザー指定により星十字騎士団には含めず、見えざる帝国の人物として収録。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "wandenreich",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
     }
   ]
 }

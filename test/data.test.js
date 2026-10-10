@@ -97,7 +97,7 @@ test('invalid version, duplicate IDs, malformed values and broken references fai
 })
 
 test('P3 updates only existing Ishida and appends 28 distinct characters', () => {
-  assert.equal(allCharacters.length, 101)
+  assert.equal(allCharacters.length, 102)
   assert.equal(allCharacters.filter(c => c.id === 'ishida-uryu').length, 1)
   for (let i = 0; i < 73; i++) {
     if (allCharacters[i].id !== 'ishida-uryu') assert.deepEqual(allCharacters[i], characters[i])
@@ -108,7 +108,7 @@ test('P3 updates only existing Ishida and appends 28 distinct characters', () =>
   ishida.sources = ishida.sources.slice(0, 1)
   ishida.abilities[0].schrift = ishidaP2.abilities[0].schrift
   assert.deepEqual(ishida, ishidaP2)
-  for (const c of allCharacters.slice(73)) {
+  for (const c of allCharacters.slice(73, 101)) {
     assert.equal(c.name.reading.status, 'unrecorded')
     assert.equal(c.memberships[0].timeline.summaryStatus, 'unrecorded')
     assert.ok(c.sources.some(s => s.kind === 'communityWebsite'))

@@ -25,7 +25,7 @@ export interface Source {
   notes: string[]
 }
 
-export type GroupId = 'gotei13' | 'espada' | 'visored' | 'karakuracho' | 'fullbringer' | 'sternritter' | 'arrancar'
+export type GroupId = 'gotei13' | 'espada' | 'visored' | 'karakuracho' | 'fullbringer' | 'sternritter' | 'wandenreich' | 'arrancar'
 export interface StoryPoint {
   label: string
   continuity: 'manga' | 'anime' | 'unrecorded'

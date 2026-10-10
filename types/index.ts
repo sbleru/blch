@@ -19,6 +19,6 @@ export interface Human {
   bankai2Kana: string
 }
 
-export type GroupCode = 'gotei13'|'espada'|'visored'|'all'|'karakuracho'|'fullbringer'|'sternritter'
+export type GroupCode = 'gotei13'|'espada'|'visored'|'all'|'karakuracho'|'fullbringer'|'sternritter'|'wandenreich'
 
 export type TldrType = 'shinigami'|'hollow'|'fullbringer'|'quincy'

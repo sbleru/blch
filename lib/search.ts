@@ -11,6 +11,7 @@ export function findCharacters(data: readonly Character[], target: string): Char
 export function findCharactersByGroup(data: readonly Character[], groupCode: GroupCode, options: string[] | null = null): Character[] {
   return data.filter(character => groupCode === 'all' ||
     (groupCode === 'sternritter' && character.memberships.some(m => m.groupId === 'sternritter')) ||
+    (groupCode === 'wandenreich' && character.memberships.some(m => m.groupId === 'wandenreich' || m.groupId === 'sternritter')) ||
     (character.legacyView.groupId === groupCode && (!options || character.legacyView.attribute === options[0])))
 }
 

@@ -25,6 +25,7 @@ program
   .option("-k, --karakuracho", "List karakuracho")
   .option("-f, --fullbringer", "List fullbringer")
   .option("-s, --sternritter", "List sternritter")
+  .option("-w, --wandenreich", "List wandenreich")
   .action( async (options) => {
 
     const dataList = await files.getCharacterDataList()
@@ -46,6 +47,7 @@ program
       targetCode = 'fullbringer'
     }
     if (options.sternritter) targetCode = 'sternritter'
+    if (options.wandenreich) targetCode = 'wandenreich'
     const humans = findCharactersByGroup(dataList, targetCode)
     if (humans.length === 0) {
       console.log('No matching')
