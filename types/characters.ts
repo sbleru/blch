@@ -17,7 +17,7 @@ export interface Citation {
 }
 
 export interface Source {
-  kind: 'legacyCsv' | 'repository' | 'manga' | 'officialWebsite'
+  kind: 'legacyCsv' | 'repository' | 'manga' | 'officialWebsite' | 'communityWebsite'
   locator: string
   revision: string | null
   citation: Citation | null
@@ -77,7 +77,7 @@ export type AbilitySystem =
   | (AbilityBase & { kind: 'fullbringer' })
   | (AbilityBase & {
       kind: 'quincy'
-      schrift: Knowledge<{ letter: string; name: NamedText }>
+      schrift: Knowledge<{ letter: string; name: NamedText | null }>
       vollstandig: Knowledge<NamedText[]>
     })
 
@@ -91,7 +91,7 @@ export interface Character {
   sources: Source[]
   /** Preserve today's selection and display; it is not the character's species. */
   legacyView: {
-    groupId: Exclude<GroupId, 'sternritter' | 'arrancar'>
+    groupId: Exclude<GroupId, 'arrancar'>
     attribute: string
     tldrType: 'shinigami' | 'hollow' | 'fullbringer' | 'quincy'
   }
@@ -127,6 +127,6 @@ export interface Examples {
 }
 
 export interface CharacterDataset {
-  schemaVersion: 1
+  schemaVersion: 1 | 2
   characters: Character[]
 }

@@ -67,3 +67,29 @@ test('finds the same character by stable ID and reading', async () => {
     assert.equal(result.stderr, '')
   }
 })
+
+test('Sternritter lists affiliation history without polluting Karakura list', async () => {
+  const { stdout } = await run('human', '--sternritter')
+  assert.equal(stdout.trim().split('\n').length, 29)
+  assert.match(stdout, /^石田雨竜$/m)
+  assert.match(stdout, /^ジェイムズ$/m)
+  assert.doesNotMatch(stdout, /ユーハバッハ|シャズ/)
+  const karakura = await run('human', '--karakuracho')
+  assert.doesNotMatch(karakura.stdout, /ハッシュヴァルト/)
+})
+
+test('Schrift prints recorded names and explicitly leaves unresolved names empty', async () => {
+  const known = await run('tldr', 'jugram-haschwalth')
+  assert.match(known.stdout, /B：世界調和.*ザ・バランス/)
+  const unresolved = await run('tldr', 'bg9')
+  assert.match(unresolved.stdout, /^    K$/m)
+  assert.doesNotMatch(unresolved.stdout, /名称未入力|K：/)
+  assert.doesNotMatch(unresolved.stdout, /なし\|不明/)
+})
+
+test('shared twin name returns both distinct characters', async () => {
+  const { stdout } = await run('tldr', 'ロイド・ロイド')
+  assert.match(stdout, /ロイド・ロイド（L）/)
+  assert.match(stdout, /ロイド・ロイド（R）/)
+  assert.equal((stdout.match(/Y：/g) || []).length, 2)
+})

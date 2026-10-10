@@ -10,7 +10,10 @@ import * as previous from './fixtures/legacy-output.js'
 
 const dataset = JSON.parse(await readFile(new URL('../data/characters.json', import.meta.url), 'utf8'))
 const original = JSON.parse(await readFile(new URL('./fixtures/humans.legacy.json', import.meta.url), 'utf8'))
-const characters = await getCharacterDataList()
+const allCharacters = await getCharacterDataList()
+const ishidaP2 = JSON.parse(await readFile(new URL('./fixtures/ishida.p2.json', import.meta.url), 'utf8'))
+// Migration checks remain scoped to the original CSV cohort and pre-P3 Ishida.
+const characters = allCharacters.slice(0, 73).map(c => c.id === 'ishida-uryu' ? ishidaP2 : c)
 
 function capture(action) {
   const output = []; const log = console.log; const timeout = globalThis.setTimeout
@@ -76,7 +79,7 @@ test('third and later array entries are displayed without a second-slot limit', 
 
 test('invalid version, duplicate IDs, malformed values and broken references fail validation', () => {
   const mutations = [
-    d => { d.schemaVersion = 2 },
+    d => { d.schemaVersion = 3 },
     d => { d.characters[1].id = d.characters[0].id },
     d => { d.characters[0].name.text = '' },
     d => { d.characters[0].name.reading = { status: 'known', value: 1 } },
@@ -91,4 +94,25 @@ test('invalid version, duplicate IDs, malformed values and broken references fai
     const copy = structuredClone(dataset); mutate(copy)
     assert.throws(() => assertCharacterDataset(copy), /Invalid character data/)
   }
+})
+
+test('P3 updates only existing Ishida and appends 28 distinct characters', () => {
+  assert.equal(allCharacters.length, 101)
+  assert.equal(allCharacters.filter(c => c.id === 'ishida-uryu').length, 1)
+  for (let i = 0; i < 73; i++) {
+    if (allCharacters[i].id !== 'ishida-uryu') assert.deepEqual(allCharacters[i], characters[i])
+  }
+  const ishida = structuredClone(allCharacters.find(c => c.id === 'ishida-uryu'))
+  ishida.description = ishidaP2.description
+  ishida.memberships = ishida.memberships.filter(m => m.groupId !== 'sternritter')
+  ishida.sources = ishida.sources.slice(0, 1)
+  ishida.abilities[0].schrift = ishidaP2.abilities[0].schrift
+  assert.deepEqual(ishida, ishidaP2)
+  for (const c of allCharacters.slice(73)) {
+    assert.equal(c.name.reading.status, 'unrecorded')
+    assert.equal(c.memberships[0].timeline.summaryStatus, 'unrecorded')
+    assert.ok(c.sources.some(s => s.kind === 'communityWebsite'))
+    assert.ok(c.sources.every(s => s.reviewStatus === 'needsReview'))
+  }
+  assert.equal(allCharacters.find(c => c.id === 'guenael-lee').abilities[0].schrift.value.name, null)
 })

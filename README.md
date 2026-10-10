@@ -68,3 +68,13 @@ blch echo --bankai 朽木白哉
 ### 参考文献
 
 [ブリーチの斬魄刀一覧 | ブリーチ屋敷](https://bleachyashiki.com/%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81-%E6%96%AC%E9%AD%84%E5%88%80/)
+
+### 星十字騎士団
+
+```console
+blch human --sternritter
+blch tldr jugram-haschwalth
+blch tldr ロイド・ロイド
+```
+
+騎士団の一覧は所属記録を持つ人物を表示します。最新時点の在籍者一覧ではありません。双子の共通名では両方の概要を表示します。聖文字の能力名が未入力の場合は文字だけを表示します。データの出典・採用範囲・保留項目は [データ編集ガイド](docs/data.md) を参照してください。
