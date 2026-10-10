@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "characters": [
     {
       "id": "kurosaki-ichigo",
@@ -448,6 +448,35 @@
             "reviewStatus": "needsReview"
           },
           "sourceIndex": 0
+        },
+        {
+          "id": "ishida-uryu-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
         }
       ],
       "abilities": [
@@ -486,7 +515,17 @@
             }
           ],
           "schrift": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": {
+              "letter": "A",
+              "name": {
+                "text": "完全反立",
+                "reading": {
+                  "status": "known",
+                  "value": "アンチサーシス"
+                }
+              }
+            }
           },
           "vollstandig": {
             "status": "unrecorded"
@@ -502,6 +541,55 @@
           "reviewStatus": "needsReview",
           "notes": [
             "既存 CSV の転記のみ。原作の校正・最新話での所属と能力・時点の確認は未実施。"
+          ]
+        },
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/keyword/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "石田雨竜：聖文字A。説明・既存能力は旧CSVから保持。",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：A／ishida-uryu",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
           ]
         }
       ],
@@ -9400,6 +9488,3693 @@
         "groupId": "fullbringer",
         "attribute": "",
         "tldrType": "fullbringer"
+      }
+    },
+    {
+      "id": "jugram-haschwalth",
+      "name": {
+        "text": "ユーグラム・ハッシュヴァルト",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "騎士団を統率し、ユーハバッハの代理も担った。",
+      "memberships": [
+        {
+          "id": "jugram-haschwalth-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "jugram-haschwalth-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "B",
+              "name": {
+                "text": "世界調和",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・バランス"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ユーグラム・ハッシュヴァルト",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ユーグラム・ハッシュヴァルト：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：B／jugram-haschwalth",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "pernida-parnkgjas",
+      "name": {
+        "text": "ペルニダ・パルンカジャス",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "親衛隊に属する、霊王の左腕。",
+      "memberships": [
+        {
+          "id": "pernida-parnkgjas-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "pernida-parnkgjas-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "C",
+              "name": {
+                "text": "強制執行",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・コンパルソリィ"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ペルニダ・パルンカジャス",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ペルニダ・パルンカジャス：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：C／pernida-parnkgjas",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "askin-nakk-le-vaar",
+      "name": {
+        "text": "アスキン・ナックルヴァール",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "霊王宮への進軍時に親衛隊入りした、観察眼に優れた人物。",
+      "memberships": [
+        {
+          "id": "askin-nakk-le-vaar-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "askin-nakk-le-vaar-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "D",
+              "name": {
+                "text": "致死量",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・デスディーリング"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：アスキン・ナックルヴァール",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "アスキン・ナックルヴァール：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：D／askin-nakk-le-vaar",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "bambietta-basterbine",
+      "name": {
+        "text": "バンビエッタ・バスターバイン",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "バンビーズの長を名乗る、感情的で気の短い人物。",
+      "memberships": [
+        {
+          "id": "bambietta-basterbine-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "bambietta-basterbine-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "E",
+              "name": {
+                "text": "爆撃",
+                "reading": {
+                  "status": "known",
+                  "value": "ジ・エクスプロード"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：バンビエッタ・バスターバイン",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "バンビエッタ・バスターバイン：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：E／bambietta-basterbine",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "as-nodt",
+      "name": {
+        "text": "エス・ノト",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "口をマスクで覆った騎士団員。",
+      "memberships": [
+        {
+          "id": "as-nodt-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "as-nodt-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "F",
+              "name": {
+                "text": "恐怖",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・フィアー"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：エス・ノト",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "エス・ノト：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：F／as-nodt",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "liltotto-lamperd",
+      "name": {
+        "text": "リルトット・ランパード",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "小柄ながら辛辣な言葉を使うバンビーズの一員。",
+      "memberships": [
+        {
+          "id": "liltotto-lamperd-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "liltotto-lamperd-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "G",
+              "name": {
+                "text": "食いしんぼう",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・グラタン"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：リルトット・ランパード",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "リルトット・ランパード：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：G／liltotto-lamperd",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "bazz-b",
+      "name": {
+        "text": "バズビー",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "バザード・ブラックを本名とする、野心的な騎士団員。",
+      "memberships": [
+        {
+          "id": "bazz-b-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "bazz-b-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "H",
+              "name": {
+                "text": "灼熱",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ヒート"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：バズビー",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "バズビー：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：H／bazz-b",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "cang-du",
+      "name": {
+        "text": "蒼都",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "平底の靴を履く、騎士団の滅却師。",
+      "memberships": [
+        {
+          "id": "cang-du-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "cang-du-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "I",
+              "name": {
+                "text": "鋼鉄",
+                "reading": {
+                  "status": "known",
+                  "value": "ジ・アイアン"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：蒼都",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "蒼都：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：I／cang-du",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "quilge-opie",
+      "name": {
+        "text": "キルゲ・オピー",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "狩猟部隊を指揮して虚圏へ攻め込んだ。",
+      "memberships": [
+        {
+          "id": "quilge-opie-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "quilge-opie-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "J",
+              "name": {
+                "text": "監獄",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ジェイル"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：キルゲ・オピー",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "キルゲ・オピー：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：J／quilge-opie",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "bg9",
+      "name": {
+        "text": "BG9",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "鎧を思わせる姿の騎士団員。",
+      "memberships": [
+        {
+          "id": "bg9-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "bg9-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "K",
+              "name": null
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：BG9",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "BG9：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：K／bg9",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "pepe-waccabrada",
+      "name": {
+        "text": "ペペ・ワキャブラーダ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "白いひげとサングラスが目印で、眼の付いた杖を携える。",
+      "memberships": [
+        {
+          "id": "pepe-waccabrada-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "pepe-waccabrada-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "L",
+              "name": {
+                "text": "愛",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ラヴ"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ペペ・ワキャブラーダ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ペペ・ワキャブラーダ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "名前は公式表記を採用。ブリーチシティ本文のワギャブラーダは採用しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：L／pepe-waccabrada",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "gerard-valkyrie",
+      "name": {
+        "text": "ジェラルド・ヴァルキリー",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "翼の意匠を持つ仮面を着けた、親衛隊の巨漢。",
+      "memberships": [
+        {
+          "id": "gerard-valkyrie-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "gerard-valkyrie-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "M",
+              "name": {
+                "text": "奇跡",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ミラクル"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ジェラルド・ヴァルキリー",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ジェラルド・ヴァルキリー：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：M／gerard-valkyrie",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "robert-accutrone",
+      "name": {
+        "text": "ロバート・アキュトロン",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "銃を武器とする、紳士風の年配者。",
+      "memberships": [
+        {
+          "id": "robert-accutrone-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "robert-accutrone-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "N",
+              "name": null
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ロバート・アキュトロン",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ロバート・アキュトロン：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：N／robert-accutrone",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "driscoll-berci",
+      "name": {
+        "text": "ドリスコール・ベルチ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "ひげを生やした大柄な騎士団員。",
+      "memberships": [
+        {
+          "id": "driscoll-berci-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "driscoll-berci-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "O",
+              "name": {
+                "text": "大量虐殺",
+                "reading": {
+                  "status": "unrecorded"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ドリスコール・ベルチ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ドリスコール・ベルチ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：O／driscoll-berci",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "能力の読みまたは名称が不一致／独立した日本語2サイト一致未確認のため未入力。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "meninas-mcallon",
+      "name": {
+        "text": "ミニーニャ・マカロン",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "背が高く穏やかな、バンビーズの一員。",
+      "memberships": [
+        {
+          "id": "meninas-mcallon-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "meninas-mcallon-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "P",
+              "name": {
+                "text": "力",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・パワー"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ミニーニャ・マカロン",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ミニーニャ・マカロン：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：P／meninas-mcallon",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "berenice-gabrielli",
+      "name": {
+        "text": "ベレニケ・ガブリエリ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "能力を説明している最中に剣八に倒された。",
+      "memberships": [
+        {
+          "id": "berenice-gabrielli-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "berenice-gabrielli-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "Q",
+              "name": {
+                "text": "異議",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・クエスチョン"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ベレニケ・ガブリエリ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ベレニケ・ガブリエリ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：Q／berenice-gabrielli",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "jerome-guizbatt",
+      "name": {
+        "text": "ジェローム・ギズバット",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "剣八に挑んで敗れた騎士団員。",
+      "memberships": [
+        {
+          "id": "jerome-guizbatt-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "jerome-guizbatt-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "R",
+              "name": {
+                "text": "咆哮",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ロア"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ジェローム・ギズバット",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ジェローム・ギズバット：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：R／jerome-guizbatt",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "mask-de-masculine",
+      "name": {
+        "text": "マスク・ド・マスキュリン",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "レスラーを思わせる覆面姿の騎士団員。",
+      "memberships": [
+        {
+          "id": "mask-de-masculine-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "mask-de-masculine-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "S",
+              "name": {
+                "text": "英雄",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・スーパースター"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：マスク・ド・マスキュリン",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "マスク・ド・マスキュリン：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：S／mask-de-masculine",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "james",
+      "name": {
+        "text": "ジェイムズ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "マスキュリン敗北後、ユーハバッハが帰還を認めた人物。",
+      "memberships": [
+        {
+          "id": "james-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "james-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "S",
+              "name": {
+                "text": "英雄",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・スーパースター"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ジェイムズ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ジェイムズ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。",
+            "ユーザーの決定により、ジェイムズを本体としてマスク・ド・マスキュリンと同じ聖文字 S：英雄（ザ・スーパースター）を採用。独立した日本語2サイト一致・原作本文の直接確認は保留。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：S／james",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "candice-catnipp",
+      "name": {
+        "text": "キャンディス・キャットニップ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "喧嘩っ早いバンビーズの一員。",
+      "memberships": [
+        {
+          "id": "candice-catnipp-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "candice-catnipp-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "T",
+              "name": {
+                "text": "雷霆",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・サンダーボルト"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：キャンディス・キャットニップ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "キャンディス・キャットニップ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：T／candice-catnipp",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "nanana-najahkoop",
+      "name": {
+        "text": "ナナナ・ナジャークープ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "大型のゴーグルが目を引く騎士団員。",
+      "memberships": [
+        {
+          "id": "nanana-najahkoop-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "nanana-najahkoop-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "U",
+              "name": {
+                "text": "無防備",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・アンダーベリー"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ナナナ・ナジャークープ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ナナナ・ナジャークープ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：U／nanana-najahkoop",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "gremmy-thoumeaux",
+      "name": {
+        "text": "グレミィ・トゥミュー",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "フード姿の少年。自身の肉体も想像によって作った。",
+      "memberships": [
+        {
+          "id": "gremmy-thoumeaux-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "gremmy-thoumeaux-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "V",
+              "name": {
+                "text": "夢想家",
+                "reading": {
+                  "status": "unrecorded"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：グレミィ・トゥミュー",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "グレミィ・トゥミュー：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：V／gremmy-thoumeaux",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "能力の読みまたは名称が不一致／独立した日本語2サイト一致未確認のため未入力。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "guenael-lee",
+      "name": {
+        "text": "グエナエル・リー",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "グレミィが想像で生み出した、老人の姿をした存在。",
+      "memberships": [
+        {
+          "id": "guenael-lee-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "guenael-lee-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "V",
+              "name": null
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：グエナエル・リー",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "グエナエル・リー：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：V／guenael-lee",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "能力の読みまたは名称が不一致／独立した日本語2サイト一致未確認のため未入力。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "nianzol-weizol",
+      "name": {
+        "text": "ニャンゾル・ワイゾル",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "二枚の舌が特徴の騎士団員。",
+      "memberships": [
+        {
+          "id": "nianzol-weizol-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "nianzol-weizol-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "W",
+              "name": {
+                "text": "紆余曲折",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ワインド"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ニャンゾル・ワイゾル",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ニャンゾル・ワイゾル：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：W／nianzol-weizol",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "lille-barro",
+      "name": {
+        "text": "リジェ・バロ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "親衛隊を率い、霊子で作った大型の銃を使う。",
+      "memberships": [
+        {
+          "id": "lille-barro-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "lille-barro-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "X",
+              "name": {
+                "text": "万物貫通",
+                "reading": {
+                  "status": "known",
+                  "value": "ジ・イクサクシス"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：リジェ・バロ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "リジェ・バロ：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：X／lille-barro",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "loyd-lloyd",
+      "name": {
+        "text": "ロイド・ロイド（L）",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [
+        {
+          "text": "ロイド・ロイド",
+          "reading": {
+            "status": "unrecorded"
+          }
+        }
+      ],
+      "description": "ロイド双子のL側。剣八と戦って敗れた。",
+      "memberships": [
+        {
+          "id": "loyd-lloyd-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "loyd-lloyd-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "Y",
+              "name": {
+                "text": "貴方自身",
+                "reading": {
+                  "status": "known",
+                  "value": "ジ・ユアセルフ"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ロイド・ロイド",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ロイド・ロイド（L）：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：Y／loyd-lloyd",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "royd-lloyd",
+      "name": {
+        "text": "ロイド・ロイド（R）",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [
+        {
+          "text": "ロイド・ロイド",
+          "reading": {
+            "status": "unrecorded"
+          }
+        }
+      ],
+      "description": "ロイド双子のR側。ユーハバッハの姿で山本と戦った。",
+      "memberships": [
+        {
+          "id": "royd-lloyd-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "royd-lloyd-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "Y",
+              "name": {
+                "text": "貴方自身",
+                "reading": {
+                  "status": "known",
+                  "value": "ジ・ユアセルフ"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ロイド・ロイド",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ロイド・ロイド（R）：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：Y／royd-lloyd",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "giselle-gewelle",
+      "name": {
+        "text": "ジゼル・ジュエル",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "バンビーズの一員で、バンビエッタもゾンビに変えた。",
+      "memberships": [
+        {
+          "id": "giselle-gewelle-sternritter",
+          "groupId": "sternritter",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "giselle-gewelle-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "Z",
+              "name": {
+                "text": "死者",
+                "reading": {
+                  "status": "known",
+                  "value": "ザ・ゾンビ"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ジゼル・ジュエル",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "ジゼル・ジュエル：人物・所属・聖文字",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。",
+            "説明は所属実績の要約。時系列上の最新所属・生死を確定しない。",
+            "説明文の出典。公式アニメの人物紹介を要約して採用。原作本文の直接確認は保留。",
+            "説明の公式サイト確認日：2026-10-10。最新所属・生死の確定とは区別する。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Sternritter?file=640Color_pages_2-3.png",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Members：Z／giselle-gewelle",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "List of Schrifts",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": null,
+          "reviewStatus": "needsReview",
+          "notes": [
+            "星十字騎士団のキャラ一覧",
+            "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
+            "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "sternritter",
+        "attribute": "",
+        "tldrType": "quincy"
+      }
+    },
+    {
+      "id": "yhwach",
+      "name": {
+        "text": "ユーハバッハ",
+        "reading": {
+          "status": "unrecorded"
+        }
+      },
+      "aliases": [],
+      "description": "見えざる帝国を統べる、滅却師の始祖。配下から陛下と呼ばれる。",
+      "memberships": [
+        {
+          "id": "yhwach-wandenreich",
+          "groupId": "wandenreich",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "known",
+            "value": "皇帝"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0
+        }
+      ],
+      "abilities": [
+        {
+          "id": "yhwach-quincy",
+          "kind": "quincy",
+          "items": [],
+          "vollstandig": {
+            "status": "unrecorded"
+          },
+          "schrift": {
+            "status": "known",
+            "value": {
+              "letter": "A",
+              "name": {
+                "text": "全知全能",
+                "reading": {
+                  "status": "unrecorded"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "CHARACTER：ユーハバッハ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "名前・帝国の指導者・聖文字Aを照合。説明は公式人物紹介の要約。全知全能の名称は公式ハッシュヴァルト紹介とブリーチシティで照合。原作本文の直接確認・巻話ページ特定・能力の読み・技は保留。",
+            "ユーザー指定により星十字騎士団には含めず、見えざる帝国の人物として収録。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-10",
+          "citation": {
+            "label": "A.ユーハバッハ",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "名前・帝国の指導者・聖文字Aを照合。説明は公式人物紹介の要約。全知全能の名称は公式ハッシュヴァルト紹介とブリーチシティで照合。原作本文の直接確認・巻話ページ特定・能力の読み・技は保留。",
+            "ユーザー指定により星十字騎士団には含めず、見えざる帝国の人物として収録。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "wandenreich",
+        "attribute": "",
+        "tldrType": "quincy"
       }
     }
   ]

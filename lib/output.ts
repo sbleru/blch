@@ -26,8 +26,15 @@ export const outputTldr = (character: Character) => {
   console.log()
   console.log(chalk.bold(getNameWithKana(character.name.text, reading(character.name))))
   if (character.description) console.log('\n' + chalk.reset(character.description))
+  for (const system of character.abilities) {
+    if (system.kind !== 'quincy' || system.schrift.status !== 'known') continue
+    const { letter, name } = system.schrift.value
+    console.log(chalk.green('\n- 聖文字'))
+    console.log(chalk.cyanBright(`    ${letter}${name ? `：${getNameWithKana(name.text, reading(name))}` : ''}`))
+  }
   for (const [section, label] of sections) {
     if (!label) continue
+    if (type === 'quincy' && character.abilities.some(a => a.kind === 'quincy' && a.schrift.status === 'known') && !entries(character).some(item => item.displaySection === section)) continue
     console.log(chalk.green(`\n- ${label}`))
     for (const name of sectionNames(character, section)) console.log(chalk.cyanBright(`    ${name}`))
   }

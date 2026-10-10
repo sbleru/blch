@@ -1,0 +1,103 @@
+{
+  "id": "ishida-uryu",
+  "name": {
+    "text": "石田雨竜",
+    "reading": {
+      "status": "known",
+      "value": "いしだうりゅう"
+    }
+  },
+  "aliases": [],
+  "description": "古よりホロウと戦い続けてきた滅却師(クインシー)の数少ない生き残り。死神に対して強い憎悪を抱いており一護とも敵対したが、のちに戦友となる。手先が器用で裁縫が得意だが、ファッションセンスはあまりよくない。",
+  "memberships": [
+    {
+      "id": "ishida-uryu-karakuracho",
+      "groupId": "karakuracho",
+      "divisionNumber": {
+        "status": "unrecorded"
+      },
+      "designation": {
+        "status": "unrecorded"
+      },
+      "role": {
+        "status": "unrecorded"
+      },
+      "timeline": {
+        "summaryStatus": "unrecorded",
+        "referencePoint": {
+          "status": "unrecorded"
+        },
+        "validFrom": {
+          "status": "unrecorded"
+        },
+        "validUntil": {
+          "status": "unrecorded"
+        },
+        "supersedes": [],
+        "sourceIndex": null,
+        "reviewStatus": "needsReview"
+      },
+      "sourceIndex": 0
+    }
+  ],
+  "abilities": [
+    {
+      "id": "ishida-uryu-ability-quincy",
+      "kind": "quincy",
+      "items": [
+        {
+          "id": "ishida-uryu-kaigou",
+          "name": {
+            "text": "完全反立",
+            "reading": {
+              "status": "known",
+              "value": "アンチサーシス"
+            }
+          },
+          "kind": "quincyAbility",
+          "displaySection": "first",
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 0,
+          "legacySlot": "kaigou"
+        }
+      ],
+      "schrift": {
+        "status": "unrecorded"
+      },
+      "vollstandig": {
+        "status": "unrecorded"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "kind": "legacyCsv",
+      "locator": "test/fixtures/human.legacy.csv#石田雨竜",
+      "revision": "30320db36d874fc690ba051f3f61ca201eb6868f",
+      "citation": null,
+      "reviewStatus": "needsReview",
+      "notes": [
+        "既存 CSV の転記のみ。原作の校正・最新話での所属と能力・時点の確認は未実施。"
+      ]
+    }
+  ],
+  "legacyView": {
+    "groupId": "karakuracho",
+    "attribute": "",
+    "tldrType": "quincy"
+  }
+}

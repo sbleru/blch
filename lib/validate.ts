@@ -31,8 +31,8 @@ function citation(value: unknown, path: string): void {
   const entry = object(value, path); text(entry.label, `${path}.label`)
   for (const key of ['volumeNumber', 'chapterNumber', 'pageNumber']) if (entry[key] !== null) integer(entry[key], `${path}.${key}`)
 }
-const groups = ['gotei13', 'espada', 'visored', 'karakuracho', 'fullbringer', 'sternritter', 'arrancar']
-const legacyGroups = groups.slice(0, 5)
+const groups = ['gotei13', 'espada', 'visored', 'karakuracho', 'fullbringer', 'sternritter', 'wandenreich', 'arrancar']
+const legacyGroups = groups.slice(0, 7)
 const systems = ['shinigami', 'hollow', 'fullbringer', 'quincy']
 const slots = ['kaigou', 'zanpakuto', 'bankai', 'kaigou2', 'zanpakuto2', 'bankai2']
 const itemKinds = ['releaseCommand', 'weapon', 'bankai', 'resurreccion', 'fullbring', 'technique', 'quincyAbility', 'unclassified']
@@ -46,7 +46,7 @@ function reference(value: unknown, sourceCount: number, path: string): void {
 }
 
 export function assertCharacterDataset(value: unknown): asserts value is CharacterDataset {
-  const root = object(value, 'root'); if (root.schemaVersion !== 1) fail('schemaVersion')
+  const root = object(value, 'root'); if (root.schemaVersion !== 1 && root.schemaVersion !== 2) fail('schemaVersion')
   const ids = new Set<string>()
   const unique = (value: unknown, path: string, seen: Set<string>) => {
     text(value, path); if (!/^[a-z][a-z0-9-]*$/.test(String(value)) || seen.has(String(value))) fail(path)
@@ -61,7 +61,7 @@ export function assertCharacterDataset(value: unknown): asserts value is Charact
     if (!sources.length) fail(`${path}.sources`)
     for (const source of sources) {
       const s = object(source, `${path}.sources`)
-      choice(s.kind, ['legacyCsv', 'repository', 'manga', 'officialWebsite'], `${path}.source.kind`)
+      choice(s.kind, ['legacyCsv', 'repository', 'manga', 'officialWebsite', 'communityWebsite'], `${path}.source.kind`)
       text(s.locator, `${path}.source.locator`)
       if (s.revision !== null) text(s.revision, `${path}.source.revision`)
       citation(s.citation, `${path}.source.citation`)
@@ -90,7 +90,7 @@ export function assertCharacterDataset(value: unknown): asserts value is Charact
       choice(system.kind, systems, `${path}.system.kind`)
       if (system.kind === 'quincy') {
         knowledge(system.schrift, `${path}.schrift`, (value, path) => {
-          const s = object(value, path); text(s.letter, `${path}.letter`); named(s.name, `${path}.name`)
+          const s = object(value, path); text(s.letter, `${path}.letter`); if (s.name !== null) named(s.name, `${path}.name`); else if (root.schemaVersion === 1) fail(`${path}.name`)
         })
         knowledge(system.vollstandig, `${path}.vollstandig`, (value, path) => {
           for (const name of array(value, path)) named(name, path)

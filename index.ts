@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import * as files from './lib/files.js';
-import { findCharacter, findCharactersByGroup } from './lib/search.js';
+import { findCharacter, findCharacters, findCharactersByGroup } from './lib/search.js';
 import { program } from 'commander';
 import { createRequire } from 'node:module';
 import { GroupCode } from "./types/index.js";
@@ -24,6 +24,8 @@ program
   .option("-v, --visored", "List visored")
   .option("-k, --karakuracho", "List karakuracho")
   .option("-f, --fullbringer", "List fullbringer")
+  .option("-s, --sternritter", "List sternritter")
+  .option("-w, --wandenreich", "List wandenreich")
   .action( async (options) => {
 
     const dataList = await files.getCharacterDataList()
@@ -44,6 +46,8 @@ program
     if (options.fullbringer) {
       targetCode = 'fullbringer'
     }
+    if (options.sternritter) targetCode = 'sternritter'
+    if (options.wandenreich) targetCode = 'wandenreich'
     const humans = findCharactersByGroup(dataList, targetCode)
     if (humans.length === 0) {
       console.log('No matching')
@@ -67,12 +71,12 @@ program
   .action( async (target, options) => {
 
     const dataList = await files.getCharacterDataList()
-    const human = findCharacter(dataList, target)
-    if (!human) {
+    const humans = findCharacters(dataList, target)
+    if (!humans.length) {
       console.log('No matching')
       return
     }
-    outputTldr(human)
+    humans.forEach(outputTldr)
 
   }).on('--help', function() {
     console.log('\n  Examples:')
