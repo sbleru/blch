@@ -32,6 +32,11 @@ export const outputTldr = (character: Character) => {
     console.log(chalk.green('\n- 聖文字'))
     console.log(chalk.cyanBright(`    ${letter}${name ? `：${getNameWithKana(name.text, reading(name))}` : ''}`))
   }
+  for (const system of character.abilities) {
+    if (system.kind !== 'quincy' || system.vollstandig.status !== 'known' || !system.vollstandig.value.length) continue
+    console.log(chalk.green('\n- 完聖体'))
+    for (const name of system.vollstandig.value) console.log(chalk.cyanBright(`    ${getNameWithKana(name.text, reading(name))}`))
+  }
   for (const [section, label] of sections) {
     if (!label) continue
     if (type === 'quincy' && character.abilities.some(a => a.kind === 'quincy' && a.schrift.status === 'known') && !entries(character).some(item => item.displaySection === section)) continue
