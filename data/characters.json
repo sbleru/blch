@@ -9793,7 +9793,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の毒見",
+                "reading": {
+                  "status": "known",
+                  "value": "ハスハイン"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -9865,6 +9874,40 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：アスキン・ナックルヴァール、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の毒見／ハスハイン。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：アスキン・ナックルヴァール、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の毒見／ハスハイン。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -10049,7 +10092,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の怯え",
+                "reading": {
+                  "status": "known",
+                  "value": "タタルフォラス"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -10121,6 +10173,40 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：エス・ノト、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の怯え／タタルフォラス。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：エス・ノト、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の怯え／タタルフォラス。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -10561,7 +10647,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の正義",
+                "reading": {
+                  "status": "known",
+                  "value": "ピスキエル"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -10633,6 +10728,40 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：キルゲ・オピー、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の正義／ピスキエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：キルゲ・オピー、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の正義／ピスキエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -10811,7 +10940,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の情愛",
+                "reading": {
+                  "status": "known",
+                  "value": "グドエロ"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -10885,6 +11023,40 @@
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
           ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：ペペ・ワキャブラーダ、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の情愛／グドエロ。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：ペペ・ワキャブラーダ、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の情愛／グドエロ。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
         }
       ],
       "legacyView": {
@@ -10940,7 +11112,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の権能",
+                "reading": {
+                  "status": "known",
+                  "value": "アシュトニグ"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -11013,6 +11194,40 @@
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
           ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：ジェラルド・ヴァルキリー、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の権能／アシュトニグ。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：ジェラルド・ヴァルキリー、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の権能／アシュトニグ。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
         }
       ],
       "legacyView": {
@@ -11068,7 +11283,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の歩み",
+                "reading": {
+                  "status": "known",
+                  "value": "グリマニエル"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -11134,6 +11358,40 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：ロバート・アキュトロン、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の歩み／グリマニエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：ロバート・アキュトロン、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の歩み／グリマニエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -12660,7 +12918,16 @@
           "kind": "quincy",
           "items": [],
           "vollstandig": {
-            "status": "unrecorded"
+            "status": "known",
+            "value": [
+              {
+                "text": "神の裁き",
+                "reading": {
+                  "status": "known",
+                  "value": "ジリエル"
+                }
+              }
+            ]
           },
           "schrift": {
             "status": "known",
@@ -12732,6 +12999,40 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only：リジェ・バロ、Quincy: Vollständig欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の裁き／ジリエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/973.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "星十字騎士団：リジェ・バロ、完聖体欄",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "完聖体の名称・読み：神の裁き／ジリエル。異なる2サイトの人物対応・名称・読みの一致で採用。",
+            "原作74巻までを基準とする。原作本文の直接確認・巻話ページ特定は保留。アニメ追加の形態・技・作用説明は採用しない。サイト間の転載・独立性は未検証。",
+            "既存の完聖体未採用メモは前回調査時の履歴。"
           ]
         }
       ],

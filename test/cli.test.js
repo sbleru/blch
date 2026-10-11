@@ -109,3 +109,13 @@ test('Wandenreich includes Sternritter and Yhwach without duplicate people', asy
   assert.match(summary.stdout, /ユーハバッハ/)
   assert.match(summary.stdout, /A：全知全能/)
 })
+
+test('Vollstandig displays names and readings separately from Schrift', async () => {
+  const quilge = await run('tldr', 'quilge-opie')
+  assert.match(quilge.stdout, /聖文字[\s\S]*J：監獄[\s\S]*- 完聖体\n    神の正義 （ピスキエル）/)
+  const robert = await run('tldr', 'robert-accutrone')
+  assert.match(robert.stdout, /^    N$/m)
+  assert.match(robert.stdout, /- 完聖体\n    神の歩み （グリマニエル）/)
+  const deferred = await run('tldr', 'bambietta-basterbine')
+  assert.doesNotMatch(deferred.stdout, /完聖体|ゾフィエル/)
+})
