@@ -11199,7 +11199,8 @@
               "name": {
                 "text": "大量虐殺",
                 "reading": {
-                  "status": "unrecorded"
+                  "status": "known",
+                  "value": "ジ・オーヴァーキル"
                 }
               }
             }
@@ -11262,6 +11263,38 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのList of Schrifts O行とアニヲタWikiの大量虐殺見出しで読みが一致。ブリーチシティ・RENOTEにはジ・オーバーキル表記もあるため差を記録する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/30030.html",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "大量虐殺(ジ・オーヴァーキル)",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのList of Schrifts O行とアニヲタWikiの大量虐殺見出しで読みが一致。ブリーチシティ・RENOTEにはジ・オーバーキル表記もあるため差を記録する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -12224,7 +12257,8 @@
               "name": {
                 "text": "夢想家",
                 "reading": {
-                  "status": "unrecorded"
+                  "status": "known",
+                  "value": "ザ・ヴィジョナリィ"
                 }
               }
             }
@@ -12287,6 +12321,38 @@
             "星十字騎士団のキャラ一覧",
             "複数サイト照合による採用。原作74巻までが収録範囲。原作本文の直接確認・巻話ページ特定は保留。",
             "人物名の読み・最新状態・所属期間・完聖体・技は未採用。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのList of Schrifts V行とブリーチ屋敷の夢想家見出しで読みが一致。ブリーチシティのザ・ヴィジョナリー表記との差を記録する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachyashiki.com/gremmy/",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "夢想家（ザ・ヴィジョナリィ）",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのList of Schrifts V行とブリーチ屋敷の夢想家見出しで読みが一致。ブリーチシティのザ・ヴィジョナリー表記との差を記録する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
           ]
         }
       ],
@@ -13130,7 +13196,8 @@
               "name": {
                 "text": "全知全能",
                 "reading": {
-                  "status": "unrecorded"
+                  "status": "known",
+                  "value": "ジ・オールマイティ"
                 }
               }
             }
@@ -13168,6 +13235,38 @@
           "notes": [
             "名前・帝国の指導者・聖文字Aを照合。説明は公式人物紹介の要約。全知全能の名称は公式ハッシュヴァルト紹介とブリーチシティで照合。原作本文の直接確認・巻話ページ特定・能力の読み・技は保留。",
             "ユーザー指定により星十字騎士団には含めず、見えざる帝国の人物として収録。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleach.fandom.com/wiki/Schrift?theme=wiki",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "List of Schrifts／Schrift in Name Only",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのSchrift in Name Only A行とブリーチシティのA.ユーハバッハで読みが一致。騎士団所属の採用とは区別する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachcity.rezelog.com/bleach-sternritter/",
+          "revision": "2026-10-11",
+          "citation": {
+            "label": "A.ユーハバッハ／全知全能(ジ・オールマイティ)",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "Bleach WikiのSchrift in Name Only A行とブリーチシティのA.ユーハバッハで読みが一致。騎士団所属の採用とは区別する。",
+            "ユーザー指定の異なる2サイト以上の一致を採用基準とする。サイト間の転載・独立性と原作本文は未検証。2026-10-11に読みを採用。既存の保留メモは前回調査時の履歴。"
           ]
         }
       ],
