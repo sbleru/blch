@@ -31,11 +31,11 @@ function citation(value: unknown, path: string): void {
   const entry = object(value, path); text(entry.label, `${path}.label`)
   for (const key of ['volumeNumber', 'chapterNumber', 'pageNumber']) if (entry[key] !== null) integer(entry[key], `${path}.${key}`)
 }
-const groups = ['gotei13', 'espada', 'visored', 'karakuracho', 'fullbringer', 'sternritter', 'wandenreich', 'arrancar']
-const legacyGroups = groups.slice(0, 7)
+const groups = ['gotei13', 'espada', 'visored', 'karakuracho', 'fullbringer', 'sternritter', 'wandenreich', 'zero', 'arrancar']
+const legacyGroups = groups.filter(group => group !== 'arrancar')
 const systems = ['shinigami', 'hollow', 'fullbringer', 'quincy']
 const slots = ['kaigou', 'zanpakuto', 'bankai', 'kaigou2', 'zanpakuto2', 'bankai2']
-const itemKinds = ['releaseCommand', 'weapon', 'bankai', 'resurreccion', 'fullbring', 'technique', 'quincyAbility', 'unclassified']
+const itemKinds = ['releaseCommand', 'weapon', 'bankai', 'shinuchi', 'resurreccion', 'fullbring', 'technique', 'quincyAbility', 'unclassified']
 function storyPoint(value: unknown, path: string): void {
   const entry = object(value, path); text(entry.label, `${path}.label`)
   choice(entry.continuity, ['manga', 'anime', 'unrecorded'], `${path}.continuity`)

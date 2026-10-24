@@ -59,6 +59,15 @@ test('prints bankai output in order', async () => {
   assert.match(stdout, /卍解[\s\S]*天鎖斬月/)
 })
 
+test('echo uses Shinuchi for Ichibe while keeping Bankai for other characters', async () => {
+  const ichibe = await run('echo', '--bankai', '兵主部一兵衛')
+  assert.match(ichibe.stdout, /^真打\n[\s\S]*しら筆一文字/m)
+  assert.doesNotMatch(ichibe.stdout, /卍解/)
+  const ichigo = await run('echo', '--bankai', '黒崎一護')
+  assert.match(ichigo.stdout, /^卍解\n[\s\S]*天鎖斬月/m)
+  assert.doesNotMatch(ichigo.stdout, /真打/)
+})
+
 test('finds the same character by stable ID and reading', async () => {
   const byName = await run('tldr', '黒崎一護')
   for (const target of ['kurosaki-ichigo', 'くろさきいちご']) {
@@ -118,4 +127,30 @@ test('Vollstandig displays names and readings separately from Schrift', async ()
   assert.match(robert.stdout, /- 完聖体\n    神の歩み （グリマニエル）/)
   const deferred = await run('tldr', 'bambietta-basterbine')
   assert.doesNotMatch(deferred.stdout, /完聖体|ゾフィエル/)
+})
+
+test('lists five Zero Division members without adding them to Gotei 13', async () => {
+  const list = await run('human', '--zero')
+  const short = await run('hu', '-z')
+  assert.equal(short.stdout, list.stdout)
+  assert.equal(list.stdout.trim().split('\n').length, 5)
+  for (const name of ['兵主部一兵衛', '二枚屋王悦', '麒麟寺天示郎', '修多羅千手丸', '曳舟桐生']) assert.ok(list.stdout.includes(name))
+  const gotei = await run('hu', '-g')
+  assert.doesNotMatch(gotei.stdout, /兵主部|二枚屋|麒麟寺|修多羅|曳舟/)
+})
+
+test('Zero Division names, readings and IDs show only adopted manga abilities', async () => {
+  const ichibe = await run('tldr', '兵主部一兵衛')
+  assert.equal((await run('tldr', 'ひょうすべいちべえ')).stdout, ichibe.stdout)
+  assert.equal((await run('tldr', 'hyosube-ichibe')).stdout, ichibe.stdout)
+  assert.match(ichibe.stdout, /- 真打\n    しら筆一文字 （しらふでいちもんじ）/)
+  assert.doesNotMatch(ichibe.stdout, /- 卍解|千里通天掌|不転太殺陵/)
+  const oetsu = await run('tldr', '二枚屋王悦')
+  assert.match(oetsu.stdout, /鞘伏 （さやふし）/)
+  assert.doesNotMatch(oetsu.stdout, /解号|卍解|なし\|不明/)
+  const kirinji = await run('tldr', '麒麟寺天示郎')
+  assert.match(kirinji.stdout, /天照一閃 （てんしょういっせん）/)
+  assert.match(kirinji.stdout, /金毘迦 （きんぴか）/)
+  const senjumaru = await run('tldr', '修多羅千手丸')
+  assert.doesNotMatch(senjumaru.stdout, /刺絡|娑闥|卍解|なし\|不明/)
 })
