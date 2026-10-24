@@ -13576,6 +13576,777 @@
         "attribute": "",
         "tldrType": "quincy"
       }
+    },
+    {
+      "id": "hyosube-ichibe",
+      "name": {
+        "text": "兵主部一兵衛",
+        "reading": {
+          "status": "known",
+          "value": "ひょうすべいちべえ"
+        }
+      },
+      "aliases": [],
+      "description": "霊王を護る零番隊の中心人物で、真名呼和尚と呼ばれる。",
+      "memberships": [
+        {
+          "id": "hyosube-ichibe-zero",
+          "groupId": "zero",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "hyosube-ichibe-shinigami",
+          "kind": "shinigami",
+          "items": [
+            {
+              "id": "hyosube-ichibe-kaigou",
+              "name": {
+                "text": "黒めよ",
+                "reading": {
+                  "status": "known",
+                  "value": "くろめよ"
+                }
+              },
+              "kind": "releaseCommand",
+              "displaySection": "first",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "kaigou"
+            },
+            {
+              "id": "hyosube-ichibe-zanpakuto",
+              "name": {
+                "text": "一文字",
+                "reading": {
+                  "status": "known",
+                  "value": "いちもんじ"
+                }
+              },
+              "kind": "weapon",
+              "displaySection": "second",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "zanpakuto"
+            },
+            {
+              "id": "hyosube-ichibe-bankai",
+              "name": {
+                "text": "しら筆一文字",
+                "reading": {
+                  "status": "known",
+                  "value": "しらふでいちもんじ"
+                }
+              },
+              "kind": "shinuchi",
+              "displaySection": "third",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "bankai"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "CHARACTER：兵主部一兵衛",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/43947.html",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "メンバー：兵主部一兵衛",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://manga-data.com/bleach-14/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "王族特務・零番隊：兵主部一兵衛",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachyashiki.com/ichibe/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "兵主部一兵衛：斬魄刀・解号",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。",
+            "しら筆一文字の名称は同ページとアニヲタWiki、読みはBLEACH設定資料集と公式UNION ARENAカード（https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=EX15BT%2FBLC-4-057）の補助照合。真打は卍解に相当するが別の名称として表示する。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "zero",
+        "attribute": "",
+        "tldrType": "shinigami"
+      }
+    },
+    {
+      "id": "nimaiya-oetsu",
+      "name": {
+        "text": "二枚屋王悦",
+        "reading": {
+          "status": "known",
+          "value": "にまいやおうえつ"
+        }
+      },
+      "aliases": [],
+      "description": "刀神と呼ばれる零番隊員。斬魄刀を創り出した。",
+      "memberships": [
+        {
+          "id": "nimaiya-oetsu-zero",
+          "groupId": "zero",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "nimaiya-oetsu-shinigami",
+          "kind": "shinigami",
+          "items": [
+            {
+              "id": "nimaiya-oetsu-zanpakuto",
+              "name": {
+                "text": "鞘伏",
+                "reading": {
+                  "status": "known",
+                  "value": "さやふし"
+                }
+              },
+              "kind": "weapon",
+              "displaySection": "second",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "zanpakuto"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "CHARACTER：二枚屋王悦",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/43947.html",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "メンバー：二枚屋王悦",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://manga-data.com/bleach-14/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "王族特務・零番隊：二枚屋王悦",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachyashiki.com/ohetsu/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "二枚屋王悦：斬魄刀・解号",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。",
+            "鞘伏は使用した刀として採用し、王悦固有の始解・卍解とは断定しない。BLEACH設定資料集とブリーチ屋敷で名称・読みを照合。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "zero",
+        "attribute": "",
+        "tldrType": "shinigami"
+      }
+    },
+    {
+      "id": "kirinji-tenjiro",
+      "name": {
+        "text": "麒麟寺天示郎",
+        "reading": {
+          "status": "known",
+          "value": "きりんじてんじろう"
+        }
+      },
+      "aliases": [],
+      "description": "泉湯鬼の異名を持つ零番隊員。長いリーゼントが特徴。",
+      "memberships": [
+        {
+          "id": "kirinji-tenjiro-zero",
+          "groupId": "zero",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "kirinji-tenjiro-shinigami",
+          "kind": "shinigami",
+          "items": [
+            {
+              "id": "kirinji-tenjiro-kaigou",
+              "name": {
+                "text": "天照一閃",
+                "reading": {
+                  "status": "known",
+                  "value": "てんしょういっせん"
+                }
+              },
+              "kind": "releaseCommand",
+              "displaySection": "first",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "kaigou"
+            },
+            {
+              "id": "kirinji-tenjiro-zanpakuto",
+              "name": {
+                "text": "金毘迦",
+                "reading": {
+                  "status": "known",
+                  "value": "きんぴか"
+                }
+              },
+              "kind": "weapon",
+              "displaySection": "second",
+              "timeline": {
+                "summaryStatus": "unrecorded",
+                "referencePoint": {
+                  "status": "unrecorded"
+                },
+                "validFrom": {
+                  "status": "unrecorded"
+                },
+                "validUntil": {
+                  "status": "unrecorded"
+                },
+                "supersedes": [],
+                "sourceIndex": null,
+                "reviewStatus": "needsReview"
+              },
+              "sourceIndex": 3,
+              "legacySlot": "zanpakuto"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "CHARACTER：麒麟寺天示郎",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/43947.html",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "メンバー：麒麟寺天示郎",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://manga-data.com/bleach-14/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "王族特務・零番隊：麒麟寺天示郎",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://bleachyashiki.com/tenjiro/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "麒麟寺天示郎：斬魄刀・解号",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。",
+            "金毘迦は公式とブリーチ屋敷・アニヲタWikiで照合。解号は単行本での天照一閃を採用し、本誌の煌けは収録しない。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "zero",
+        "attribute": "",
+        "tldrType": "shinigami"
+      }
+    },
+    {
+      "id": "shutara-senjumaru",
+      "name": {
+        "text": "修多羅千手丸",
+        "reading": {
+          "status": "known",
+          "value": "しゅたらせんじゅまる"
+        }
+      },
+      "aliases": [],
+      "description": "大織守と呼ばれる零番隊員で、骨のような義手を扱う。",
+      "memberships": [
+        {
+          "id": "shutara-senjumaru-zero",
+          "groupId": "zero",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "shutara-senjumaru-shinigami",
+          "kind": "shinigami",
+          "items": []
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "CHARACTER：修多羅千手丸",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/43947.html",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "メンバー：修多羅千手丸",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://manga-data.com/bleach-14/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "王族特務・零番隊：修多羅千手丸",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "zero",
+        "attribute": "",
+        "tldrType": "shinigami"
+      }
+    },
+    {
+      "id": "hikifune-kirio",
+      "name": {
+        "text": "曳舟桐生",
+        "reading": {
+          "status": "known",
+          "value": "ひきふねきりお"
+        }
+      },
+      "aliases": [],
+      "description": "穀王の異名を持つ零番隊員。ふくよかな体格をしている。",
+      "memberships": [
+        {
+          "id": "hikifune-kirio-zero",
+          "groupId": "zero",
+          "divisionNumber": {
+            "status": "unrecorded"
+          },
+          "designation": {
+            "status": "unrecorded"
+          },
+          "role": {
+            "status": "unrecorded"
+          },
+          "timeline": {
+            "summaryStatus": "unrecorded",
+            "referencePoint": {
+              "status": "unrecorded"
+            },
+            "validFrom": {
+              "status": "unrecorded"
+            },
+            "validUntil": {
+              "status": "unrecorded"
+            },
+            "supersedes": [],
+            "sourceIndex": null,
+            "reviewStatus": "needsReview"
+          },
+          "sourceIndex": 1
+        }
+      ],
+      "abilities": [
+        {
+          "id": "hikifune-kirio-shinigami",
+          "kind": "shinigami",
+          "items": []
+        }
+      ],
+      "sources": [
+        {
+          "kind": "officialWebsite",
+          "locator": "https://bleach-anime.com/character/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "CHARACTER：曳舟桐生",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://w.atwiki.jp/aniwotawiki/pages/43947.html",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "メンバー：曳舟桐生",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        },
+        {
+          "kind": "communityWebsite",
+          "locator": "https://manga-data.com/bleach-14/",
+          "revision": "2026-10-22",
+          "citation": {
+            "label": "王族特務・零番隊：曳舟桐生",
+            "volumeNumber": null,
+            "chapterNumber": null,
+            "pageNumber": null
+          },
+          "reviewStatus": "needsReview",
+          "notes": [
+            "原作74巻までの人物・所属・名前の読みを複数サイトで照合。原作本文の直接確認・巻話ページ特定、サイト間の独立性は未検証。",
+            "説明文は公式CHARACTERの短い要約。アニメ追加の技・卍解と原画展・小説の補足は採用しない。",
+            "BLEACH設定資料集と公式CHARACTERは検索結果で記載を確認。ページ本文の直接取得は403。"
+          ]
+        }
+      ],
+      "legacyView": {
+        "groupId": "zero",
+        "attribute": "",
+        "tldrType": "shinigami"
+      }
     }
   ]
 }

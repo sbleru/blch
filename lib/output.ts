@@ -39,8 +39,10 @@ export const outputTldr = (character: Character) => {
   }
   for (const [section, label] of sections) {
     if (!label) continue
+    if (!character.sources.some(source => source.kind === 'legacyCsv') && !entries(character).some(item => item.displaySection === section)) continue
     if (type === 'quincy' && character.abilities.some(a => a.kind === 'quincy' && a.schrift.status === 'known') && !entries(character).some(item => item.displaySection === section)) continue
-    console.log(chalk.green(`\n- ${label}`))
+    const displayLabel = section === 'third' && entries(character).some(item => item.kind === 'shinuchi' && item.displaySection === section) ? '真打' : label
+    console.log(chalk.green(`\n- ${displayLabel}`))
     for (const name of sectionNames(character, section)) console.log(chalk.cyanBright(`    ${name}`))
   }
   console.log()
@@ -103,10 +105,11 @@ export const echoShikai = (character: Character) => {
 }
 
 export const echoBankai = (character: Character) => {
-  const bankai = echoEntry(character, 'bankai')
+  const item = entries(character).find(item => item.legacySlot === 'bankai')
+  const bankai = item?.name.text
   if (!bankai) return
   console.log()
-  console.log(chalk.bold('卍解'))
+  console.log(chalk.bold(item?.kind === 'shinuchi' ? '真打' : '卍解'))
   console.log()
   setTimeout(() => {
     console.log(chalk.redBright.bold(bankai))

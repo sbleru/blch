@@ -25,7 +25,7 @@ export interface Source {
   notes: string[]
 }
 
-export type GroupId = 'gotei13' | 'espada' | 'visored' | 'karakuracho' | 'fullbringer' | 'sternritter' | 'wandenreich' | 'arrancar'
+export type GroupId = 'gotei13' | 'espada' | 'visored' | 'karakuracho' | 'fullbringer' | 'sternritter' | 'wandenreich' | 'zero' | 'arrancar'
 export interface StoryPoint {
   label: string
   continuity: 'manga' | 'anime' | 'unrecorded'
@@ -60,7 +60,7 @@ export interface AbilityItem {
   displaySection: 'first' | 'second' | 'third'
   id: string
   name: NamedText
-  kind: 'releaseCommand' | 'weapon' | 'bankai' | 'resurreccion' | 'fullbring' | 'technique' | 'quincyAbility' | 'unclassified'
+  kind: 'releaseCommand' | 'weapon' | 'bankai' | 'shinuchi' | 'resurreccion' | 'fullbring' | 'technique' | 'quincyAbility' | 'unclassified'
   timeline: Timeline
   sourceIndex: number
   /** Temporary migration mapping, not a limit on the number of abilities. */
